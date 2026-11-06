@@ -1,0 +1,782 @@
+01-地图初始化: 地图初始化
+    01-kkkkkkkkkkkkkkk1: kkkkkkkkkkkkkkk1
+        禁用
+    02-kkkkkkkkkkkkkkk2: kkkkkkkkkkkkkkk2
+        禁用
+    '03-未命名触发器 002': '未命名触发器 002'
+        禁用
+    04-ESCccccccccccc: ESCccccccccccc
+        禁用
+    05------------: -----------
+        注释
+    06-检测泄露: 检测泄露
+        禁用
+    07------------: -----------
+        注释
+    08-地图初始化: 地图初始化
+        注释
+    09-DayOff: DayOff
+    10-DayOff2: DayOff2
+    11-CKzd__自动拉伸窗口居中__: CKzd/*自动拉伸窗口居中*/
+    12-镜头加减: 镜头加减
+        注释
+    13-Init__初始化每帧绘制__: Init/*初始化每帧绘制*/
+        运行
+    14-jiangtou+_: jiangtou+_
+    15-bbbbbbbbbbbb1公式111: bbbbbbbbbbbb1公式111
+        禁用
+    16-HG_F2: HG/F2
+        注释
+    17-3: 3
+    18-F2: F2
+    19-F3: F3
+    20-F4: F4
+    21-F2F2_TxXiao__回城特效传输__: F2F2_TxXiao/*回城特效传输*/
+    22-F5__修复乱码__: F5/*修复乱码*/
+    23-E__奇遇__: E/*奇遇*/
+    24-R__黑市__: R/*黑市*/
+    25-游戏成功or失败: 游戏成功or失败
+        注释
+    26-GameYes_Set: GameYes_Set
+    27-GameYES: GameYES
+    28-GameNO: GameNO
+    29-Game_jianxue: Game_jianxue
+    30-玩家离开: 玩家离开
+        注释
+    31-Out: Out
+    32-不允许A盟友: 不允许A盟友
+        注释
+    33-No_GongJi: No_GongJi
+    34-No_GongJi2: No_GongJi2
+        禁用
+    35-No_GongJi3: No_GongJi3
+        禁用
+    36-物品数量重叠+合成神格: 物品数量重叠+合成神格
+        注释
+    37-WP_DieJia_Set: WP_DieJia_Set
+    38-WP_DieJia: WP_DieJia
+02-【中心系统: 【中心系统
+    01-伤害: 伤害
+        注释
+    02-shanghai__英英雄+法宝伤害__: shanghai/*英英雄+法宝伤害*/
+    03-shanghai2__本命剑伤害R-SR__: shanghai2/*本命剑伤害R-SR*/
+    04-shanghai3__本命剑伤害SSR__: shanghai3/*本命剑伤害SSR*/
+    05-shanghai4__本命剑伤害UR__: shanghai4/*本命剑伤害UR*/
+    06-ZH_shanghai1__召唤伤害__: ZH_shanghai1/*召唤伤害*/
+    07-被普攻和多重伤害最后一击击退: 被普攻和多重伤害最后一击击退
+        注释
+    08-zuihouyiji__普攻最后一击__: zuihouyiji/*普攻最后一击*/
+    09-怪物伤害: 怪物伤害
+        注释
+    10-BaoJi_Guai__怪物伤害__: BaoJi_Guai/*怪物伤害*/
+    11-英雄受伤+怪物受伤: 英雄受伤+怪物受伤
+        注释
+    12-jianshang_Hero__英雄受伤__: jianshang_Hero/*英雄受伤*/
+    13-jianshang_Guai__怪物受伤__: jianshang_Guai/*怪物受伤*/
+    14-杀怪（怪物死亡）: 杀怪（怪物死亡）
+        注释
+    15-JGGuai_dad: JGGuai_dad
+    16-DP_uiXH__销毁名字UI传输__: DP_uiXH/*销毁名字UI传输*/
+    17-英雄死亡: 英雄死亡
+        注释
+    18-hero_Dad: hero_Dad
+    19-攻击: 攻击
+        注释
+    20-gongji1_Hero: gongji1_Hero
+    21-gongji1_guai: gongji1_guai
+    22-怪物攻击: 怪物攻击
+        注释
+    23-每秒中心计时: 每秒中心计时
+        注释
+    24-Meimiao__每秒中心计时器__: Meimiao/*每秒中心计时器*/
+    25-Meimiao1__练功房__: Meimiao1/*练功房*/
+    26-Meimiao100__每0.1秒中心计时器__: Meimiao100/*每0.1秒中心计时器*/
+    27-Meimiao100b__每0.1秒本命剑__: Meimiao100b/*每0.1秒本命剑*/
+    28-4个球技能: 4个球技能
+        禁用
+03-【一些触发传输: 【一些触发传输
+    01-Dislpay_Sh__计算伤害__: Dislpay_Sh/*计算伤害*/
+    02-Display_guai_Creat__怪物创建__: Display_guai_Creat/*怪物创建*/
+    03-display_Jibao__技暴传输__: display_Jibao/*技暴传输*/
+    04-所有属性自动加减+自动生成文本: 所有属性自动加减+自动生成文本
+        注释
+    05-Display_SXTEXT0__物品用这个__: Display_SXTEXT0/*物品用这个*/
+    06-Display_ShuXing__属性加减__: Display_ShuXing/*属性加减*/
+    07-Display_SXTEXT1__属性文本__: Display_SXTEXT1/*属性文本*/
+    08-物品创建: 物品创建
+        注释
+    09-faqi3__创建物品__: faqi3/*创建物品*/
+    10-wp_get__判断是否游戏内物品__: wp_get/*判断是否游戏内物品*/
+    11-名字UI调用: 名字UI调用
+        注释
+    12-UI_Name__名字UI调用__: UI_Name/*名字UI调用*/
+    13-===========================: ===========================
+        注释
+    14-Display1a__打怪自动回练功房__: Display1a/*打怪自动回练功房*/
+    15-Display1b__打怪自动回指定区域__: Display1b/*打怪自动回指定区域*/
+    16-Display13__NPC头顶特效传输坐标__: Display13/*NPC头顶特效传输坐标*/
+    17-Display2__怪物跳出来特效__: Display2/*怪物跳出来特效*/
+    18-Display3__怪物传送圈特效__: Display3/*怪物传送圈特效*/
+    19-Dislpay12__英雄提升特效__: Dislpay12/*英雄提升特效*/
+    20-Display11__屏幕震动+平移视角__: Display11/*屏幕震动+平移视角*/
+    21-Display11a__平移视角__: Display11a/*平移视角*/
+    22-漂浮文字加金币加木头: 漂浮文字加金币加木头
+        注释
+    23-dispaly_pfwz__漂浮文字金币木头__: dispaly_pfwz/*漂浮文字金币木头*/
+    24-BOSS计时器: BOSS计时器
+        注释
+    25-dispaly21__BOSS计时器__: dispaly21/*BOSS计时器*/
+    26-召唤物动作: 召唤物动作
+        注释
+    27-Display_ZhaoHuan1__单个召唤物瞬移__: Display_ZhaoHuan1/*单个召唤物瞬移*/
+    28-Display_ZhaoHuan2__所有召唤物移动__: Display_ZhaoHuan2/*所有召唤物移动*/
+    29-Display_ZHWJ__召唤物渐隐__: Display_ZHWJ/*召唤物渐隐*/
+04-【存档奖励and地图等级and礼包成就: 【存档奖励and地图等级and礼包成就
+    01-JiFen_Map_Set: JiFen_Map_Set
+    02-JiFen_Map_Set2__剩余积分◆__: JiFen_Map_Set2/*剩余积分◆*/
+    03-JiFen_Map_Set3__一些开关设置__: JiFen_Map_Set3/*一些开关设置*/
+    04-Fzuobi__防作弊__: Fzuobi/*防作弊*/
+    05-字符串存档创建: 字符串存档创建
+        注释
+    06-SuiJi1__服务器随机数__: SuiJi1/*服务器随机数*/
+    07-SuiJi2_DP1__随机字符串生成调用通关__: SuiJi2_DP1/*随机字符串生成调用通关*/
+    08-SuiJi2_DP2__随机字符串生成调用求魔__: SuiJi2_DP2/*随机字符串生成调用求魔*/
+    09-SuiJi2_DP3__随机字符串生成调用修罗◆__: SuiJi2_DP3/*随机字符串生成调用修罗◆*/
+    10-CJ_Get_Save__字符串存档创建__: CJ_Get_Save/*字符串存档创建*/
+    11-存档奖励发放: 存档奖励发放
+        注释
+    12-jianhgli1__通关奖励__: jianhgli1/*通关奖励*/
+    13-jianhgli2__存档本命剑破奖励__: jianhgli2/*存档本命剑破奖励*/
+    14-jianhgli3__修仙存档奖励__: jianhgli3/*修仙存档奖励*/
+    15-jianhgli4a__仙逆8件套奖励__: jianhgli4a/*仙逆8件套奖励*/
+    16-jianhgli4b__求魔神装奖励__: jianhgli4b/*求魔神装奖励*/
+    17-jianhgli4c__修罗战场奖励◆__: jianhgli4c/*修罗战场奖励◆*/
+    18-JiangLi_Cj__成就奖励__: JiangLi_Cj/*成就奖励*/
+    19-礼包+地图等级: 礼包+地图等级
+        注释
+    20-Libao_set: Libao_set
+    21-libao01__加群礼包码__: libao01/*加群礼包码*/
+    22-libao02__公众号礼包码__: libao02/*公众号礼包码*/
+    23-JiangLI_Libao__福利礼包奖励★__: JiangLI_Libao/*福利礼包奖励★*/
+    24-非卖品: 非卖品
+        注释
+    25-Libao2_set: Libao2_set
+    26-fmp01__非卖品抽取__: fmp01/*非卖品抽取*/
+    27-fmp_Jl__非卖品奖励__: fmp_Jl/*非卖品奖励*/
+    28-Fmp_dp__非卖品点亮图标传输__: 'Fmp_dp/*非卖品点亮图标传输*/ '
+    29-地图活动: 地图活动
+        注释
+    30-dituHD__地图活动奖励__: dituHD/*地图活动奖励*/
+    31-外观激活: 外观激活
+        注释
+    32-wgjh__外观激活奖励__: wgjh/*外观激活奖励*/
+05-【商城】: 【商城】
+    1-ShangCheng_set: ShangCheng_set
+    2-SC_JL__商城奖励★__: SC_JL/*商城奖励★*/
+    3-SC_Dp__商城点亮图标传输__: SC_Dp/*商城点亮图标传输*/
+06-UI【UI存档】: UI【UI存档】
+    01-Esc__关闭所有界面__: Esc/*关闭所有界面*/
+    02-UI_JM__界面按钮__: UI_JM/*界面按钮*/
+    03-存档UI: 存档UI
+        注释
+    04-Cundang_Set: Cundang_Set
+    05-UI_cd0__创建整体UI__: UI_cd0/*创建整体UI*/
+    06-UIcd1__详细面板__: UIcd1/*详细面板*/
+    07-UIcd2__福利礼包__: UIcd2/*福利礼包*/
+    08-UIcd3__通关奖励__: UIcd3/*通关奖励*/
+    09-UIcd4__本命剑谱__: UIcd4/*本命剑谱*/
+    10-UIcd5__存档套装__: UIcd5/*存档套装*/
+    11-UIcd6__仙界秘宝__: UIcd6/*仙界秘宝*/
+    12-UIcd7__修仙积分__: UIcd7/*修仙积分*/
+    13-UIcd8__商城道具__: UIcd8/*商城道具*/
+    14-UIcd9__其他X鼠标移入框等__: UIcd9/*其他X鼠标移入框等*/
+    15-UI_cdTB2c__同步1级存档__: UI_cdTB2c/*同步1级存档*/
+    16-UI_cdTB2c__同步2级存档__: UI_cdTB2c/*同步2级存档*/
+    17-UI_cdTB2c__同步3级存档__: UI_cdTB2c/*同步3级存档*/
+    18-UI_cdShuaxin__刷新存档界面★★__: UI_cdShuaxin/*刷新存档界面★★*/
+    19-UI_cdTB1__同步图标复原__: UI_cdTB1/*同步图标复原*/
+    20-UI_cdTB3__同步通关次数兑换__: UI_cdTB3/*同步通关次数兑换*/
+    21-UI_cdTB3A__同步通关说明鼠标移入__: UI_cdTB3A/*同步通关说明鼠标移入*/
+    22-UI_cdTB4__同步本命剑等级兑换__: UI_cdTB4/*同步本命剑等级兑换*/
+    23-UI_cdTB4__同步本命剑等级兑换20__: UI_cdTB4/*同步本命剑等级兑换20*/
+    24-UI_cdTB4A__同步重置本命剑__: UI_cdTB4A/*同步重置本命剑*/
+    25-UI_cdTB5__同步修仙存档兑换__: UI_cdTB5/*同步修仙存档兑换*/
+    26-UI_cdTB5c__同步修仙存档兑换20__: UI_cdTB5c/*同步修仙存档兑换20*/
+    27-UI_cdTB5A__同步重置修仙积分__: UI_cdTB5A/*同步重置修仙积分*/
+    28-UI_cdTB5B__同步求魔兑换__: UI_cdTB5B/*同步求魔兑换*/
+    29-UI_cdTB5C__同步修罗战场__: UI_cdTB5C/*同步修罗战场*/
+    30-UI_cdTB5D0__同步焚天熔炉◆__: UI_cdTB5D0/*同步焚天熔炉◆*/
+    31-UI_cdTB5DA__同步焚天熔炉20◆__: UI_cdTB5DA/*同步焚天熔炉20◆*/
+    32-UI_cdTB5D1__同步焚天熔炉重置◆__: UI_cdTB5D1/*同步焚天熔炉重置◆*/
+    33-UI_cdTB6__同步变换仙界秘宝__: UI_cdTB6/*同步变换仙界秘宝*/
+    34-UI_ctb6A__仙界秘宝上一页__: UI_ctb6A/*仙界秘宝上一页*/
+    35-UI_ctb6B__仙界秘宝下一页__: UI_ctb6B/*仙界秘宝下一页*/
+    36-UI_ctb8A__商城上一页__: UI_ctb8A/*商城上一页*/
+    37-UI_ctb8B__商城下一页__: UI_ctb8B/*商城下一页*/
+    38-dpN__计算难度成就完成数量__: dpN/*计算难度成就完成数量*/
+    39-右键点击: 右键点击
+        注释
+    40-ui_Youji__右键升级__: ui_Youji/*右键升级*/
+07-UI【TAB面板】_进攻提示_多面板_信息提示: UI【TAB面板】/进攻提示/多面板/信息提示
+    01-UI_TAB__TAB面板创建__: UI_TAB/*TAB面板创建*/
+    02-同步传送事件: 同步传送事件
+    '03-每秒检测 复制': '每秒检测 复制'
+    04-display_tab__tab面板刷新__: display_tab/*tab面板刷新*/
+    05-按TAB: 按TAB
+    06-按ESC: 按ESC
+    07-UI进攻提示: UI进攻提示
+        注释
+    08-UIJG_Set: UIJG_Set
+    09-UI1__BOSS来袭__: UI1/*BOSS来袭*/
+    10-UI2__小怪进攻UI__: UI2/*小怪进攻UI*/
+    11-UI多面板: UI多面板
+        注释
+    12-UI信息提示: UI信息提示
+        注释
+    13-UIXiaoqi_Set: UIXiaoqi_Set
+    14-CtaiAdd__消息发送__: CtaiAdd/*消息发送*/
+    15-UI屏幕上方提示: UI屏幕上方提示
+        注释
+    16-UI_tishi1__提示__: UI_tishi1/*提示*/
+    '17-未命名触发器 001': '未命名触发器 001'
+        禁用
+08-UI【新的】_转圈_小提示_伤害排行: UI【新的】/转圈/小提示/伤害排行
+    01-选择单位等: 选择单位等
+        注释
+    02-dwSelect__选择单位事件__: dwSelect/*选择单位事件*/
+    03-dwMoveWp__移动物品事件__: dwMoveWp/*移动物品事件*/
+        禁用
+    04-dwDianJiA__点击A出现范围圈__: dwDianJiA/*点击A出现范围圈*/
+        禁用
+    05-dwDianJiA2__释放A__: dwDianJiA2/*释放A*/
+        禁用
+    06-dwDianJiA3__右键__: dwDianJiA3/*右键*/
+        禁用
+    07-dwDianJiA3__攻击指令1__: dwDianJiA3/*攻击指令1*/
+        禁用
+    08-dwDianJiA3__攻击指令2__: dwDianJiA3/*攻击指令2*/
+        禁用
+    09-UI转圈+黑市+奇遇: UI转圈+黑市+奇遇
+        注释
+    10-UI_ZhuanQuan_set: UI_ZhuanQuan_set
+    11-UI_ZhuanQuan1__转圈开启__: UI_ZhuanQuan1/*转圈开启*/
+    12-UI新的: UI新的
+        注释
+    13-UI_ZhuanQuan4__新的__: UI_ZhuanQuan4/*新的*/
+    14-UI_ZhuanQuan5__成功失败不足等__: UI_ZhuanQuan5/*成功失败不足等*/
+    15-UICD模型: UICD模型
+        注释
+    16-UICD: UICD
+    17-伤害排行UI: 伤害排行UI
+        注释
+    18-DPS注册11: DPS注册11
+    19-DPS__DPS排行现__: DPS/*DPS排行现*/
+    20-伤害d: 伤害d
+        禁用
+    21-DPS清除: DPS清除
+        禁用
+    22-图标飞入特效: 图标飞入特效
+        注释
+    23-Trigger: Trigger
+        禁用
+    '24-UI MoveEff': 'UI MoveEff'
+        关闭
+    '25-UI MoveEff__初始动作快__': 'UI MoveEff/*初始动作快*/'
+        关闭
+09-UI【法宝】选择_吞噬背包_宝物替换_升级3选1_物品上限: UI【法宝】选择/吞噬背包/宝物替换/升级3选1/物品上限
+    01-UI0__创建UI__: UI0/*创建UI*/
+    02-UI2__宝物set__: UI2/*宝物set*/
+    03-UI2A__宝物set2属性__: UI2A/*宝物set2属性*/
+    04-JN_UseFB__使用技能获得宝物__: JN_UseFB/*使用技能获得宝物*/
+    05-UI3_DP__宝物选择界面出现__: UI3_DP/*宝物选择界面出现*/
+    06-UI1a__同步获得宝物__: UI1a/*同步获得宝物*/
+    07-UI1AA__直接获得法宝★__: UI1AA/*直接获得法宝★*/
+    08-UI1d__同步刷新__: UI1d/*同步刷新*/
+    09-UI1e__同步放弃__: UI1e/*同步放弃*/
+    10-UI1b__同步替换__: UI1b/*同步替换*/
+    11-UI1F__同步替换放弃__: UI1F/*同步替换放弃*/
+        禁用
+    12-FQ_HeCheng__宝物吞噬合成__: FQ_HeCheng/*宝物吞噬合成*/
+    13-display_6ci__每6次后替换一下池库__: display_6ci/*每6次后替换一下池库*/
+    14-display_1__添加物品删除数字重新排序__: display_1/*添加物品删除数字重新排序*/
+    15-display_2__添加物品删除数字重新排序2__: display_2/*添加物品删除数字重新排序2*/
+    16-ui_DisplayGet_ShuXing__单个属性__: ui_DisplayGet_ShuXing/*单个属性*/
+    17-ui_DisplayLose_ShuXing__单个属性__: ui_DisplayLose_ShuXing/*单个属性*/
+    18-ui_DisplayGet_ShuXingTUN__合成属性__: ui_DisplayGet_ShuXingTUN/*合成属性*/
+    19-Dp_RTFB__随机入体法宝__: Dp_RTFB/*随机入体法宝*/
+    20-Dp_RTFB2__直接入体法宝__: Dp_RTFB2/*直接入体法宝*/
+    21-Dp_thgx__法宝替换界面更新__: Dp_thgx/*法宝替换界面更新*/
+    22-精英词条3选1=======: 精英词条3选1=======
+        注释
+    23-Jy_Set__词条Set__: Jy_Set/*词条Set*/
+    24-heroUp__词条选择界面出现__: heroUp/*词条选择界面出现*/
+    25-UI1c__同步升级3选1__: UI1c/*同步升级3选1*/
+    26-=============: =============
+        注释
+    27-UI100a__同步法宝背包点X__: UI100a/*同步法宝背包点X*/
+    28-UI100__隐藏与显示宝物选择__: UI100/*隐藏与显示宝物选择*/
+    29-UI101__隐藏与显示宝物背包__: UI101/*隐藏与显示宝物背包*/
+    30-七剑下天山: 七剑下天山
+        注释
+    31-qijian_Set: qijian_Set
+    32-qijian_Dad__法宝BOSS死亡__: qijian_Dad/*法宝BOSS死亡*/
+    33-in_qijian__进天山__: in_qijian/*进天山*/
+10-UI【控制台】三围+t特效开关: UI【控制台】三围+t特效开关
+    1-UI_SX1_Set__三围控制台+金币木头UI__: UI_SX1_Set/*三围控制台+金币木头UI*/
+    2-KongZHIan_Set__按钮__: KongZHIan_Set/*按钮*/
+    3-tbKong__同步控制台按钮__: tbKong/*同步控制台按钮*/
+    4-tbKong__同步控制台按钮2__: tbKong/*同步控制台按钮2*/
+    5-weizhi__小地图物品太阳位置__: weizhi/*小地图物品太阳位置*/
+11-UI【本命剑】系统(技能): UI【本命剑】系统(技能)
+    01-JianXin_Set: JianXin_Set
+    02-UI_BMJ_set__UI创建__: UI_BMJ_set/*UI创建*/
+    03-UI_BMJDP__选择界面出现__: UI_BMJDP/*选择界面出现*/
+    04-本命剑交互=======: 本命剑交互=======
+        注释
+    05-UI1d__同步获得本命剑技能__: UI1d/*同步获得本命剑技能*/
+    06-UI1e__同步刷新本命剑__: UI1e/*同步刷新本命剑*/
+    07-剑旋转: 剑旋转
+        注释
+    08-Jian_BMa__创建1剑__: Jian_BMa/*创建1剑*/
+    09-Jian_BMb__剑的运行__: Jian_BMb/*剑的运行*/
+    10-剑技能挑战: 剑技能挑战
+        注释
+    11-JianJN_Use: JianJN_Use
+    12-jian_Dad: jian_Dad
+    13-Jian_dhk_dianji: Jian_dhk_dianji
+12-UI【难度选择】和Debuff: UI【难度选择】和Debuff
+    01-UI_ND1__创建UI__: UI_ND1/*创建UI*/
+    02-UI_ND2b1__同步翻页__: UI_ND2b1/*同步翻页*/
+    03-UI_ND2d__同步点击难度__: UI_ND2d/*同步点击难度*/
+    04-UI_ND2c__同步修仙模式__: UI_ND2c/*同步修仙模式*/
+    05-UI_ND_dp__难度设置【★】__: UI_ND_dp/*难度设置【★】*/
+    06-UI_ND_dp2__修仙模式__: UI_ND_dp2/*修仙模式*/
+    07-UI修仙挂机: UI修仙挂机
+        注释
+    08-UIf6__创建UI__: UIf6/*创建UI*/
+    09-N5+debuff: N5+debuff
+        注释
+    10-debuff_Set: debuff_Set
+13-UI【衣服武器】: UI【衣服武器】
+    1-YIFU_Set: YIFU_Set
+    2-UI_YIFU__衣服武器创建UI__: UI_YIFU/*衣服武器创建UI*/
+    3-UI_yfwqTB__同步升级__: UI_yfwqTB/*同步升级*/
+    4-UI_yfwqT2B__快捷键Q升级__: UI_yfwqT2B/*快捷键Q升级*/
+    5-UI_yfwqT2C__快捷键W升级__: UI_yfwqT2C/*快捷键W升级*/
+    6-display_yfwqUP__升级传输__: display_yfwqUP/*升级传输*/
+    7-Display_Text1__衣服武器文本更新__: Display_Text1/*衣服武器文本更新*/
+    8-YFWQGuai_Dad2: YFWQGuai_Dad2
+14-UI【衣服武器】词条3选1: UI【衣服武器】词条3选1
+    1-UIf1_set__创建UI__: UIf1_set/*创建UI*/
+    2-UIf2_Set__词条Set__: UIf2_Set/*词条Set*/
+    3-Upwq__武器词条选择界面__: Upwq/*武器词条选择界面*/
+    4-Upyf__衣服词条选择界面__: Upyf/*衣服词条选择界面*/
+    5-UIf1_tb1__同步武器3选1__: UIf1_tb1/*同步武器3选1*/
+    6-UIf1_tb2__同步衣服3选1__: UIf1_tb2/*同步衣服3选1*/
+    7-Dp_yifqJL__衣服武器奖励传输__: Dp_yifqJL/*衣服武器奖励传输*/
+15-【UI提醒图标】: 【UI提醒图标】
+    1-UI提醒: UI提醒
+        注释
+    2-TiXing_Set__创建UI__: TiXing_Set/*创建UI*/
+    3-TiXingTB__点击提醒图标__: TiXingTB/*点击提醒图标*/
+    4-tixin_disp1__奇遇图标出现__: tixin_disp1/*奇遇图标出现*/
+    5-tixin_disp2__黑市图标出现__: tixin_disp2/*黑市图标出现*/
+    6-控制台上方成就提醒: 控制台上方成就提醒
+        注释
+    7-CJKuang_Set__创建UI__: CJKuang_Set/*创建UI*/
+    8-CJkuang__同步__: CJkuang/*同步*/
+    9-displ2__成就框出现传输__: displ2/*成就框出现传输*/
+16-UI【七日签到】: UI【七日签到】
+    1-UI_7R__创建__: UI_7R/*创建*/
+    2-ui_TB_7r__同步7日标签__: ui_TB_7r/*同步7日标签*/
+17-UI【地图活动】: UI【地图活动】
+    01-DThuodong_set: 'DThuodong_set '
+    02-DTHD_Dp__点亮图标传输__: DTHD_Dp/*点亮图标传输*/
+    03-UIDThuodong_set__创建UI__: UIDThuodong_set/*创建UI*/
+    04-UIhd_fy__翻页点击和进入__: UIhd_fy/*翻页点击和进入*/
+    05-UIhd_tbfy1__上一页__: UIhd_tbfy1/*上一页*/
+    06-UIhd_tbfy2__下一页__: UIhd_tbfy2/*下一页*/
+    07-UIhd_tb1__活动1__: UIhd_tb1/*活动1*/
+    08-UIhd_tb2__活动2__: UIhd_tb2/*活动2*/
+    09-UIhd_tb3__活动3__: UIhd_tb3/*活动3*/
+    10-UIhd_tb4__活动4__: UIhd_tb4/*活动4*/
+    11-UIhd_tb5__活动5__: UIhd_tb5/*活动5*/
+    12-UIhd_tb6__活动6__: UIhd_tb6/*活动6*/
+    13-UIhd__同步激活活动图标__: UIhd/*同步激活活动图标*/
+    14-uihd2ac__记录是否有可激活__: uihd2ac/*记录是否有可激活*/
+18-伤害用特效模型显示: 伤害用特效模型显示
+    1-sh_Set: sh_Set
+    2-display_BJ: display_BJ
+    3-display_TX__物理+法术__: display_TX/*物理+法术*/
+19-排行榜_战斗力_时间显示: 排行榜/战斗力/时间显示
+    01-排行榜: 排行榜
+        注释
+    02-paihangb: paihangb
+        禁用
+    03-paihangb_Set: paihangb_Set
+    04-怪物死亡更新排行榜: 怪物死亡更新排行榜
+        注释
+    05-kills_set__伪装前面几把爆装备__: kills_set/*伪装前面几把爆装备*/
+    06-kills_add: kills_add
+        禁用
+    07-每3秒更新战斗力_每秒伤害: 每3秒更新战斗力/每秒伤害
+        注释
+    08-5_miaoGet: 5_miaoGet
+    09-每秒显示时间+宝箱+怪物个数: 每秒显示时间+宝箱+怪物个数
+        注释
+    10-Time_Display: Time_Display
+20-商店NPC跳转隐藏: 商店NPC跳转隐藏
+    1-商店NPC跳转: 商店NPC跳转
+        注释
+    2-NPC_set__所有NPC设定隐藏__: NPC_set/*所有NPC设定隐藏*/
+    3-select_NPC: select_NPC
+21-【进攻怪】: 【进攻怪】
+    1-ALL_Set1__进攻怪__: ALL_Set1/*进攻怪*/
+    2-进攻怪: 进攻怪
+        注释
+    3-ChuGuai__进攻__: ChuGuai/*进攻*/
+    4-Display_chuguai4__进攻出怪__: Display_chuguai4/*进攻出怪*/
+    5-自动守家_改李守家: 自动守家/改李守家
+        注释
+    6-zidong_Set: zidong_Set
+    7-Zidong_use: Zidong_use
+    8-ZiDongSJ_text__文本传输__: ZiDongSJ_text/*文本传输*/
+    9-in_jidi: in_jidi
+22-【练功房】: 【练功房】
+    01-ALL_Set2__练功房__: ALL_Set2/*练功房*/
+    02-练功房购买出怪: 练功房购买出怪
+        注释
+    03-gm_set: gm_set
+    04-shuagua_wp: shuagua_wp
+    05-Display_chuguai1__练功房刷怪单个__: Display_chuguai1/*练功房刷怪单个*/
+    06-Display_chuguai3__练功房刷怪全部__: Display_chuguai3/*练功房刷怪全部*/
+    07-Display_chuguai4__B计划刷怪__: Display_chuguai4/*B计划刷怪*/
+    08-进出练功房: 进出练功房
+        注释
+    09-in_LGF: in_LGF
+    10-out_LGF: out_LGF
+    11-自动切怪: 自动切怪
+        注释
+    12-Qieguai_Set: Qieguai_Set
+    13-Qieguai_use: Qieguai_use
+    14-Qieguai_text__文本传输__: Qieguai_text/*文本传输*/
+23-【英雄】系统+等级系统: 【英雄】系统+等级系统
+    01-创建英雄: 创建英雄
+        注释
+    02-hero_Set__创建英雄__: hero_Set/*创建英雄*/
+    03-hero_Set2__英雄变黑异步__: hero_Set2/*英雄变黑异步*/
+    04-hero_select__双击选英雄__: hero_select/*双击选英雄*/
+    05-hero_display2__换英雄继承属性__: hero_display2/*换英雄继承属性*/
+    06-TF_text_display__改天赋文本__: TF_text_display/*改天赋文本*/
+    07-血条底层0: 血条底层0
+    08-UI_HeroXueT__UI模拟血条创建__: UI_HeroXueT/*UI模拟血条创建*/
+    09-XTSX__UI血条刷新__: XTSX/*UI血条刷新*/
+    10-英雄捡取物品: 英雄捡取物品
+        注释
+    11-jian_wp__英雄捡取物品__: jian_wp/*英雄捡取物品*/
+    12-滑步: 滑步
+        注释
+    13-E6_set: E6_set
+    14-D_ZuoBiao: D_ZuoBiao
+    15-英雄H保持原位并警戒: 英雄H保持原位并警戒
+        注释
+    16-H_ZuoBiao: H_ZuoBiao
+    17-=======等级系统=======: =======等级系统=======
+        注释
+    18-Lv_Set: Lv_Set
+    19-单位升级，请转→所有属性加成: 单位升级，请转→所有属性加成
+        注释
+    20-hero_UP: hero_UP
+24-【宝宝】技能: 【宝宝】技能
+    01-Q传送物品: Q传送物品
+        注释
+    02-BB_Q: BB_Q
+        禁用
+    03-R一键合成: R一键合成
+        注释
+    04-BB_R: BB_R
+        禁用
+    05-X一键炼化: X一键炼化
+        注释
+    06-BB_X: BB_X
+        禁用
+    07-W一键捡取: W一键捡取
+        注释
+    08-BB_W: BB_W
+    09-E一键丢弃: E一键丢弃
+        注释
+    10-BB_E: BB_E
+    11-C置换: C置换
+        注释
+    12-BB_C: BB_C
+        禁用
+    13-点击F时合成选择单位身上的法器: 点击F时合成选择单位身上的法器
+        注释
+    14-F: F
+        禁用
+    15-T练功房关闭: T练功房关闭
+        注释
+    16-BB_3_Set: BB_3_Set
+        禁用
+    17-BB_3_1: BB_3_1
+    18-BB_3_2: BB_3_2
+    19-宝宝不能进别人的练功房: 宝宝不能进别人的练功房
+        注释
+    20-bb_get1: bb_get1
+    21-bb_get2: bb_get2
+    22-bb_get3: bb_get3
+    23-bb_get4: bb_get4
+    24-Z技能整理: Z技能整理
+        注释
+    25-BB_Z: BB_Z
+        禁用
+    26-点击鼠标右键宝宝瞬移: 点击鼠标右键宝宝瞬移
+        注释
+    27-shubiaoyou: shubiaoyou
+25-【境界系统】: 【境界系统】
+    1-Jingjie_Set__境界Set__: Jingjie_Set/*境界Set*/
+    2-JingjieJN_Use: JingjieJN_Use
+    3-JJ_Dad: JJ_Dad
+    4-in_JJ__脱胎换骨__: in_JJ/*脱胎换骨*/
+    5-in_TM__天门__: in_TM/*天门*/
+26-【杀敌兑换+黑市】: 【杀敌兑换+黑市】
+    01-SDS_set: SDS_set
+    02-====杀敌兑换=====: ====杀敌兑换=====
+        注释
+    03-SDS_Use1: SDS_Use1
+    04-SDS_Use2: SDS_Use2
+    05-Dp_Sds_text__杀敌兑换文本__: Dp_Sds_text/*杀敌兑换文本*/
+    06-====黑市商人=====: ====黑市商人=====
+        注释
+    07-HeiShi_Use3__黑市JN__: HeiShi_Use3/*黑市JN*/
+    08-HeiShi_Use4__黑市WP__: HeiShi_Use4/*黑市WP*/
+    09-HEi_27dhk_dian: HEi_27dhk_dian
+    10-HeiShi_add__黑市刷新技能__: HeiShi_add/*黑市刷新技能*/
+27-【狩猎爬塔】u: 【狩猎爬塔】u
+    1-Shoulie_Set: Shoulie_Set
+    2-Shoulie_Set2__创建UI__: Shoulie_Set2/*创建UI*/
+    3-Sl1__同步狩猎挑战点击__: Sl1/*同步狩猎挑战点击*/
+    4-sl_C__C键挑战__: sl_C/*C键挑战*/
+    5-Sl2__同步狩猎右键__: Sl2/*同步狩猎右键*/
+    6-SL1_display__狩猎出怪调用__: SL1_display/*狩猎出怪调用*/
+    7-SL_Dad: SL_Dad
+    8-SL_display__UI成功和失败调用__: SL_display/*UI成功和失败调用*/
+28-【奇遇】b: 【奇遇】b
+    1-Qiyu_Set: Qiyu_Set
+    2-Qiyu_Use: Qiyu_Use
+    3-Qiyu_Use2__刷新__: Qiyu_Use2/*刷新*/
+    4-Qiyu_DP1__奇遇使用调用__: Qiyu_DP1/*奇遇使用调用*/
+    5-Qiyu_Dad__奇遇怪死亡__: Qiyu_Dad/*奇遇怪死亡*/
+    6-Qiyu_add__奇遇刷新技能__: Qiyu_add/*奇遇刷新技能*/
+29-【存档BOSS挑战】】】】: 【存档BOSS挑战】】】】
+    01-武玄之路: 武玄之路
+        注释
+    02-XNZL_set: XNZL_set
+    03-XNZL_WPuse: XNZL_WPuse
+    04-XNZL_WPuse2: XNZL_WPuse2
+    05-XNZL_Dad: XNZL_Dad
+    06-求魔装备: 求魔装备
+        注释
+    07-QM_set: QM_set
+    08-QM_WPuse: QM_WPuse
+    09-UI_ZP__创建__: UI_ZP/*创建*/
+    10-QM_Dad__界面出现转圈获得存档__: QM_Dad/*界面出现转圈获得存档*/
+    11-修罗战场: 修罗战场
+        注释
+    12-XLZC_set: XLZC_set
+    13-XL_Use: XL_Use
+    14-XL_Use2__结算__: XL_Use2/*结算*/
+    15-CDFB2_Kaiqi__开启修罗战场__: CDFB2_Kaiqi/*开启修罗战场*/
+    16-CDFB2_GuaiDAD: CDFB2_GuaiDAD
+    17-CDFB2_ShuaGuai__刷修罗怪__: CDFB2_ShuaGuai/*刷修罗怪*/
+    18-DPXL_Jiesuan__修罗结算传输__: DPXL_Jiesuan/*修罗结算传输*/
+    19-仙界秘宝: 仙界秘宝
+        注释
+    20-XJMB_set: XJMB_set
+    21-XJMB_WPuse: XJMB_WPuse
+    22-XJMB_Dad__界面出现选择获得存档__: XJMB_Dad/*界面出现选择获得存档*/
+    23-CJB_DP__随机字符串生成调用并加属性__: CJB_DP/*随机字符串生成调用并加属性*/
+    24-UI_cdTB7__同步仙界秘宝替换__: UI_cdTB7/*同步仙界秘宝替换*/
+    25-焚天熔炉: 焚天熔炉
+        注释
+    26-RL_set: RL_set
+    27-in_Rl__进熔炉__: in_Rl/*进熔炉*/
+    28-RL_Dad__熔炉__: RL_Dad/*熔炉*/
+30-【辅助玩法】: 【辅助玩法】
+    1-in_famu: in_famu
+    2-in_famu1: in_famu1
+    3-in_famu2: in_famu2
+    4-in_famu3: in_famu3
+    5-out_famu1: out_famu1
+        禁用
+    6-out_famu2: out_famu2
+        禁用
+    7-out_famu3: out_famu3
+        禁用
+31-成就: 成就
+    1-CJ_Set: CJ_Set
+    2-in_LiFaShi__李法师__: in_LiFaShi/*李法师*/
+    3-in_LiFaShi2__李法师__: in_LiFaShi2/*李法师*/
+32-野怪: 野怪
+    1-YeGuai_Set: YeGuai_Set
+33-物品其他获得: 物品其他获得
+    1-木头堆使用: 木头堆使用
+        注释
+    2-mutou_Use: mutou_Use
+34-BOSS技能: BOSS技能
+    01-BossJN_Set: BossJN_Set
+    02-BOSSC0__招老弟__: BOSSC0/*招老弟*/
+    03-BOSSA1__冲击波__: BOSSA1/*冲击波*/
+    04-BOSSA2__丢个炸弹晕__: BOSSA2/*丢个炸弹晕*/
+    05-BOSSA3__直线眩晕__: BOSSA3/*直线眩晕*/
+    06-BOSSA4__圆圈炸晕__: BOSSA4/*圆圈炸晕*/
+    07-BOSSA5__圆圈炸晕2次__: BOSSA5/*圆圈炸晕2次*/
+    08-BOSSA6__直线眩晕3条__: BOSSA6/*直线眩晕3条*/
+    09-BOSSA7__本多无敌__: BOSSA7/*本多无敌*/
+    10-BOSSA8__三道魔气__: BOSSA8/*三道魔气*/
+    11-BOSSA9__捶地三次__: BOSSA9/*捶地三次*/
+    12-BOSSA10__回旋镖发出去停顿几秒__: BOSSA10/*回旋镖发出去停顿几秒*/
+    13-BOSSA11__直线3次依次出现__: BOSSA11/*直线3次依次出现*/
+    14-BOSSA12__喷火__: BOSSA12/*喷火*/
+    15-BOSSA13__猿王撼地__: BOSSA13/*猿王撼地*/
+    16-BOSSA14__牛牛弹射__: BOSSA14/*牛牛弹射*/
+    17-BOSSA15__黑刹玄阵__: BOSSA15/*黑刹玄阵*/
+    18-BOSSA16__发动攻击停止__: BOSSA16/*发动攻击停止*/
+    19-BOSSA16__整合技__: BOSSA16/*整合技*/
+    20-BOSSA17__时光之门__: BOSSA17/*时光之门*/
+    21-BOSSA18__剑影留痕__: BOSSA18/*剑影留痕*/
+    22-BOSSA19__树界__: BOSSA19/*树界*/
+    23-BOSSA20__无天__: BOSSA20/*无天*/
+    24-BOSSA101__天门落剑__: BOSSA101/*天门落剑*/
+    25-BOSSA102__天门直线__: BOSSA102/*天门直线*/
+    26-BOSSA103__自身大范围__: BOSSA103/*自身大范围*/
+35-存档BOSS: 存档BOSS
+    01-BossCundangJN_Set: BossCundangJN_Set
+    02-CundangBOSSA1__冲击波__: CundangBOSSA1/*冲击波*/
+    03-CundangBOSSA2__圆圈爆炸__: CundangBOSSA2/*圆圈爆炸*/
+    04-CundangBOSSA3__捶地2次__: CundangBOSSA3/*捶地2次*/
+    05-CundangBOSSA4__圈和直线依次出现__: CundangBOSSA4/*圈和直线依次出现*/
+    06-CundangBOSSA5__受伤每秒回血__: CundangBOSSA5/*受伤每秒回血*/
+    07-CundangBOSSA6__捶地3次__: CundangBOSSA6/*捶地3次*/
+    08-CundangBOSSA7__冲击波__: CundangBOSSA7/*冲击波*/
+    09-CundangBOSSA8__冲击波__: CundangBOSSA8/*冲击波*/
+    10-CundangBOSSA9__前方多方向圈炸__: CundangBOSSA9/*前方多方向圈炸*/
+    11-N5Debuff14__剑客剑气__: N5Debuff14/*剑客剑气*/
+    12-灾厄女王: 灾厄女王
+        注释
+    13-zzzz1__灾厄之眼__: zzzz1/*灾厄之眼*/
+    14-zzzz2__灾厄魔爪__: zzzz2/*灾厄魔爪*/
+    15-天上剑仙: 天上剑仙
+        注释
+    16-zzzz3__圆圈爆炸__: zzzz3/*圆圈爆炸*/
+    17-zzzz4__受伤圆圈爆炸__: zzzz4/*受伤圆圈爆炸*/
+    18-熔炉: 熔炉
+        注释
+    19-CundangBOSSD2__冲击波__: CundangBOSSD2/*冲击波*/
+    20-CundangBOSSD3__圆圈爆炸__: CundangBOSSD3/*圆圈爆炸*/
+36-闪电链+多重射+弹射+万剑诀贝塞尔曲线: 闪电链+多重射+弹射+万剑诀贝塞尔曲线
+    01-闪电链: 闪电链
+        注释
+    02-a1__模拟闪电链__: a1/*模拟闪电链*/
+        禁用
+    03-a1__模拟闪电链之落雷__: a1/*模拟闪电链之落雷*/
+        禁用
+    04-a2__天上1个闪电多条闪电出去__: a2/*天上1个闪电多条闪电出去*/
+        禁用
+    05-a21__天上1个火球每秒自动攻击__: a21/*天上1个火球每秒自动攻击*/
+        禁用
+    06-a3__竖雷多劈__: a3/*竖雷多劈*/
+        禁用
+    07-多重射: 多重射
+        注释
+    08-b0a: b0a
+    09-b1__模拟多重射__: 'b1/*模拟多重射*/ '
+        禁用
+    10-b1__多重射魔兽原生__: b1/*多重射魔兽原生*/
+    11-弹射→转英雄伤害: 弹射→转英雄伤害
+        注释
+    12-c1__模拟弹射__: c1/*模拟弹射*/
+        禁用
+    13-贝塞尔曲线-万剑诀: 贝塞尔曲线-万剑诀
+        注释
+    14-d1__御剑杀敌_杀死敌人自动找敌人__: d1/*御剑杀敌_杀死敌人自动找敌人*/
+        禁用
+    15-d1__御剑杀敌_杀死敌人打原地__: d1/*御剑杀敌_杀死敌人打原地*/
+    16-d1__御剑杀敌_每秒找敌人打__: d1/*御剑杀敌_每秒找敌人打*/
+        禁用
+    17-d2__御剑杀敌_每秒找敌人打(打多个)__: d2/*御剑杀敌_每秒找敌人打(打多个)*/
+        禁用
+    18-====冲击波===: ====冲击波===
+        注释
+    19-====公式===: ====公式===
+        注释
+    '20-bbbbbbbbbbbb1公式111 复制': 'bbbbbbbbbbbb1公式111 复制'
+        禁用
+37-各种收益获得_属性加_回血_增幅: 各种收益获得/属性加/回血/增幅
+    1-↓每秒属性_回血_资源_各项增幅_各项转伤害: ↓每秒属性/回血/资源/各项增幅/各项转伤害
+        注释
+    2-shuxing1: shuxing1
+    3-↓杀怪增加属性_攻击: ↓杀怪增加属性/攻击
+        注释
+    4-Kills__杀怪属性__: Kills/*杀怪属性*/
+    5-↓攻击增加属性: ↓攻击增加属性
+        注释
+    6-gongji: gongji
+        禁用
+    7-↓【怪物】每秒增加_回血: ↓【怪物】每秒增加/回血
+        注释
+    8-shuxingGuai: shuxingGuai
+38-UI【外观】: UI【外观】
+    01-UI_CunDang2__创建UI__: UI_CunDang2/*创建UI*/
+    02-DJWIAIG1__点击初始__: DJWIAIG1/*点击初始*/
+    03-DJWIAIG2__点击皮肤__: DJWIAIG2/*点击皮肤*/
+    04-DJWIAIG3__点击武器__: DJWIAIG3/*点击武器*/
+    05-DJWIAIG4__点击翅膀__: DJWIAIG4/*点击翅膀*/
+    06-DJWIAIG5__点击称号__: DJWIAIG5/*点击称号*/
+    07-DJWIAIG6__点击领域__: DJWIAIG6/*点击领域*/
+    08-DJWIAIG7__点击宝宝__: DJWIAIG7/*点击宝宝*/
+    09-peidaidaiw1__佩戴初始__: peidaidaiw1/*佩戴初始*/
+    10-peidaidaiw2__佩戴皮肤__: peidaidaiw2/*佩戴皮肤*/
+    11-peidaidaiw3__佩戴武器__: peidaidaiw3/*佩戴武器*/
+    12-peidaidaiw4__佩戴翅膀__: peidaidaiw4/*佩戴翅膀*/
+    13-peidaidaiw5__佩戴称号__: peidaidaiw5/*佩戴称号*/
+    14-peidaidaiw6__佩戴领域__: peidaidaiw6/*佩戴领域*/
+    15-peidaidaiw7__佩戴宝宝__: peidaidaiw7/*佩戴宝宝*/
+39-所有特效武器_称号等转换_成就_英雄皮肤: 所有特效武器/称号等转换/成就/英雄皮肤
+    01-使用技能转换特效武器: 使用技能转换特效武器
+        注释
+    02-ALL_change_set: ALL_change_set
+    03-【称谓】使用更换技能: 【称谓】使用更换技能
+        注释
+    04-CJJN_Set: CJJN_Set
+        禁用
+    05-CJ_change: CJ_change
+        禁用
+    06-选完英雄自动存档激活外观: 选完英雄自动存档激活外观
+        注释
+    07-cunDan_WG_Save__存档更新__: cunDan_WG_Save/*存档更新*/
+    08-cunDan_WaiGuan_Dp__上局外观__: cunDan_WaiGuan_Dp/*上局外观*/
+    09-英雄皮肤: 英雄皮肤
+        注释
+    10-YX_pf_Set: YX_pf_Set
+    11-初始皮肤: 初始皮肤
+        注释
+    12-PFCS_Set: PFCS_Set
+    13-宝宝皮肤: 宝宝皮肤
+        注释
+    14-BB_pf_Set: BB_pf_Set
+    15-BB_pifu1: BB_pifu1
+        禁用
+    16-回城特效: 回城特效
+        注释
+    17-HC_TX_Set: HC_TX_Set
+    18-HC_texiao: HC_texiao
+        禁用
+    19-分裂特效: 分裂特效
+        注释
+40-测试: 测试
+    '1-未命名触发器 008': '未命名触发器 008'
+        禁用
+    2-shanghai2__伤害显示__: shanghai2/*伤害显示*/
+        禁用
+
