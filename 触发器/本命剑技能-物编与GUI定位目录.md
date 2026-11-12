@@ -20,11 +20,11 @@ GUI 入口为对部分中心系统启用收纳盒标题的候选匹配，辅以�
 | SR2 | 镇岳剑 | I04U | shanghai2、JGGuai_dad | 部分链路 |
 | SR3 | 回春剑 | I04V | Meimiao100b、shuxing1 | 部分链路 |
 | SR4 | 风萧剑 | I04W | shanghai2 | 目录或待深入 |
-| SR5 | 幻虚剑 | I04X | shanghai2 | 目录或待深入 |
-| SR6 | 裂国剑 | I04Y | shanghai2、shuxing1 | 目录或待深入 |
+| SR5 | 幻虚剑 | I04X | shanghai2 | 局部追踪，数值待确认 |
+| SR6 | 裂国剑 | I04Y | shanghai2、shuxing1 | 局部追踪，数值待确认 |
 | SR7 | 玄冰剑 | I04Z | shanghai2 | 部分链路 |
 | SR8 | 水龙吟 | I050 | shanghai2 | 部分链路 |
-| SR9 | 紫电剑 | I051 | shanghai2、shuxing1 | 目录或待深入 |
+| SR9 | 紫电剑 | I051 | shanghai2、shuxing1 | 部分链路 |
 | SR10 | 灵玉剑 | I052 | shanghai2 | 目录或待深入 |
 | SSR1 | 屠龙 | I054 | gongji1_Hero、Meimiao100b | 部分链路 |
 | SSR2 | 血屠 | I055 | shanghai3、Dislpay_Sh（公共伤害） | 目录或待深入 |
