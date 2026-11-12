@@ -1,0 +1,54 @@
+# 本命剑技能目录：物编与 GUI 定位
+
+用途：按源码中的本命剑编号找到物品、可能的 GUI 入口与学习状态，服务后续技能设计。2026-11-12 从作者打开的源码备份通过 KKWE MCP 只读取得 JianXin_Set 的 40 项映射和物品修改；“名称”是初始化保存的名字，物品字段和触发分组文字可能有旧信息。
+
+GUI 入口为对部分中心系统启用收纳盒标题的候选匹配，辅以已追踪的桃木剑、水龙卷和公共伤害入口；不是全图反向依赖结果。空白不代表技能没有实现。“部分链路”仅表示已追到部分有效动作或依赖，并不等于该技能完整掌握、已多人验证；“目录或待深入”表示尚不能独立复用。当前只整理本命剑，法宝、英雄、怪物及 BOSS 技能不在这 40 项统计内。
+
+| 编号 | 初始化名称 | 物品 ID | 已定位的候选 GUI 入口 | 学习状态 |
+| --- | --- | --- | --- | --- |
+| R1 | 玄铁剑 | I04J | shanghai2、移动链待核对 | 部分链路 |
+| R2 | 厚土剑 | I04K | shanghai2、Meimiao100、shuxing1 | 部分链路 |
+| R3 | 墨石剑 | I04L | jianshang_Hero、jianshang_Guai、JGGuai_dad | 部分链路 |
+| R4 | 青竹剑 | I04M | shanghai2 | 目录或待深入 |
+| R5 | 桃木剑 | I04N | b1（多重射） | 部分链路 |
+| R6 | 无形剑 | I04O | shanghai2、shuxing1 | 目录或待深入 |
+| R7 | 冰心剑 | I04P | Meimiao100b | 部分链路 |
+| R8 | 长河剑 | I04Q | shanghai2 | 目录或待深入 |
+| R9 | 春江剑 | I04R | shanghai、shuxing1 | 部分链路 |
+| R10 | 噬魂剑 | I04S | JGGuai_dad、Meimiao100b | 部分链路 |
+| SR1 | 魔斧剑 | I04T | shanghai2 | 目录或待深入 |
+| SR2 | 镇岳剑 | I04U | shanghai2、JGGuai_dad | 部分链路 |
+| SR3 | 回春剑 | I04V | Meimiao100b、shuxing1 | 部分链路 |
+| SR4 | 风萧剑 | I04W | shanghai2 | 目录或待深入 |
+| SR5 | 幻虚剑 | I04X | shanghai2 | 目录或待深入 |
+| SR6 | 裂国剑 | I04Y | shanghai2、shuxing1 | 目录或待深入 |
+| SR7 | 玄冰剑 | I04Z | shanghai2 | 部分链路 |
+| SR8 | 水龙吟 | I050 | shanghai2 | 部分链路 |
+| SR9 | 紫电剑 | I051 | shanghai2、shuxing1 | 目录或待深入 |
+| SR10 | 灵玉剑 | I052 | shanghai2 | 目录或待深入 |
+| SSR1 | 屠龙 | I054 | gongji1_Hero、Meimiao100b | 部分链路 |
+| SSR2 | 血屠 | I055 | shanghai3、Dislpay_Sh（公共伤害） | 目录或待深入 |
+| SSR3 | 火鳞 | I056 | jianshang_Hero | 目录或待深入 |
+| SSR4 | 承影 | I057 | shanghai3、shuxing1 | 部分链路 |
+| SSR5 | 木马牛 | I058 | shanghai3 | 目录或待深入 |
+| SSR6 | 戮仙 | I059 | shanghai3、shuxing1 | 部分链路 |
+| SSR7 | 唤水 | I05A | Meimiao100b、shuxing1 | 部分链路 |
+| SSR8 | 惊雷 | I05B | shanghai3、gongji1_guai | 部分链路 |
+| SSR9 | 卧龙 | I05C | shanghai3、shuxing1 | 部分链路 |
+| SSR10 | 墨石剑 | I05D | 待进一步定位 | 目录或待深入 |
+| UR1 | 七星龙渊 | I05E | shanghai4 | 部分链路 |
+| UR2 | 天罡 | I05F | jianshang_Hero | 部分链路 |
+| UR3 | 轩辕 | I05G | shanghai4 | 目录或待深入 |
+| UR4 | 乾坤 | I05H | shanghai4 | 部分链路 |
+| UR5 | 混沌 | I05I | shanghai4 | 部分链路 |
+| UR6 | 莫邪 | I05J | shanghai4（分组标题误写 +5） | 部分链路 |
+| UR7 | 撒 | I05K | 待进一步定位 | 目录或待深入 |
+| UR8 | 撒 | I05L | 待进一步定位 | 目录或待深入 |
+| UR9 | 撒 | I05M | 待进一步定位 | 目录或待深入 |
+| UR10 | 撒 | I05N | 待进一步定位 | 目录或待深入 |
+
+SSR10 与 UR7～UR10 的名称或物品说明看起来沿用其他条目；是否能被实际选出、是否属于占位，需要继续追 UI 选池和启用逻辑，不能单凭目录认定。UR6 的有效技能判断与分组标题不同，作者已确认水龙卷编号为 UR6。
+
+制作时先参考[技能制作规范](技能制作规范-模块化GUI与属性伤害.md)和[多目标、冰冻与法阵规范](技能制作-多目标选取与冰冻法阵.md)；结合目标图核实逆天函数、伤害和属性系统、单位/物品 ID、玩家归属、资源和未验证的游戏行为。GUI/物编/用户设计的冲突要保留来源并追查，不直接改源码。
+
+
